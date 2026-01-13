@@ -21,7 +21,7 @@
 
   下载项目：点击仓库右上角的 Code -> Download ZIP 并解压，或使用 Git 克隆：
   
- ` git clone https://github.com/你的用户名/你的仓库名.git`
+ ` git clone https://github.com/iscream208/clearticle.git`
  
   打开扩展程序页面：在 Chrome 地址栏输入 chrome://extensions/。
   
@@ -32,14 +32,14 @@
 ## 📖 使用指南
   打开任意一篇你想阅读的长文章。
   
-  点击浏览器工具栏中的 阅读器插件图标。
+  点击浏览器扩展程序中的cleararticle。
   
   页面将自动进入纯净模式。
   
   遇到图片时，点击 "🖼️ 显示图片" 按钮即可查看。
 
 ## 🏗️ 项目架构
-  本项目是一个典型的 Chrome 扩展程序，展示了解释型语言（JavaScript）如何动态操纵 DOM：
+  本项目是一个典型的 Chrome 扩展程序：
   
   manifest.json: 插件配置文件。
   
@@ -54,9 +54,6 @@
   
   Mozilla Readability: 感谢 Mozilla 团队开源了如此强大的网页正文提取库。本项目遵循其 Apache License 2.0 协议进行使用。
   
-  少数派 (sspai.com): 感谢少数派提供的高质量内容，本项目对其图片懒加载机制进行了专项适配。
-  
-  微信公众平台: 针对其防盗链机制，本项目特别优化了 Referrer 策略。
 
 ## ⚖️ 许可证 (License)
 本项目采用 MIT License 许可。
