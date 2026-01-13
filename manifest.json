@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "clearticle",
+  "version": "1.0",
+  "description": "clean html",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "transfer to raw html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
